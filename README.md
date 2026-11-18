@@ -5,21 +5,22 @@
 
 ## Repository Outline
 
+- `feedback.md`: review of the project proposal
 - `docs/`
   - `docs/project-proposal_barrys-big-blast.md`:
     - Formulates the problem (states, actions)
     - Defines division of labor (tenative)
+  - `docs/jetpack-goodride.md`: how the game represents and updates states, actions and physics, including the transition function
+  - `docs/agents.md`: documentation for `src/agents/`
+  - `docs/adaptation-plan.md`: plan for connecting the game to the generic code
 - `src/`
   - `game/`
     - A forked GitHub repository containing a python clone of jetpack joyride.
-    - todo: explore codebase and develop documentation in `game/docs/`
   - `agents/`
-      - this dir should contain general code for solving search, mdp and rl problems.
-      - this code should not be specific to jetpack joyride
-      - todo: define desired python files (and modules if applicable)
-        - e.g.:
-          - `search`
-          - `mdp`
-          - `rl`
+    - General code for solving search, mdp and rl problems (not specific to jetpack joyride):
+      - `search.py`
+      - `mdp.py`
+      - `rl.py`
 - `test/`
-  - testing
+  - `test/test_agents.py`, `test/toy_problems.py`: sanity checks on small problems with known answers
+  - run from the repo root: `python -m unittest discover -s test -v`
