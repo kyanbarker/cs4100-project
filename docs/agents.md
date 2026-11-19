@@ -2,11 +2,11 @@
 
 Game-independent implementations of the algorithms from PA1 (search) and PA3 (MDPs and Q-learning). They use only the Python standard library. Developed and tested on Python 3.13; the code should work on 3.9+.
 
-| Module | Contents | Source |
-|---|---|---|
-| `search.py` | `SearchProblem`, `generic_search`, BFS, DFS, UCS, A\*, weighted A\* | PA1 `search.py` |
-| `mdp.py` | `MarkovDecisionProcess`, `reachable_states`, `ValueEstimationAgent`, `ValueIterationAgent` | PA3 `mdp.py`, `valueIterationAgents.py`, `learningAgents.py` |
-| `rl.py` | `Environment`, `MDPEnvironment`, `QLearningAgent`, `ApproximateQAgent`, `train`, `evaluate`, `run_episode` | PA3 `qlearningAgents.py`, `learningAgents.py` |
+| Module      | Contents                                                                                                   | Source                                                       |
+| ----------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| `search.py` | `SearchProblem`, `generic_search`, BFS, DFS, UCS, A\*, weighted A\*                                        | PA1 `search.py`                                              |
+| `mdp.py`    | `MarkovDecisionProcess`, `reachable_states`, `ValueEstimationAgent`, `ValueIterationAgent`                 | PA3 `mdp.py`, `valueIterationAgents.py`, `learningAgents.py` |
+| `rl.py`     | `Environment`, `MDPEnvironment`, `QLearningAgent`, `ApproximateQAgent`, `train`, `evaluate`, `run_episode` | PA3 `qlearningAgents.py`, `learningAgents.py`                |
 
 PA2 (minimax / expectimax) is not ported. Jetpack Joyride is a single-agent game. If a ghost-like adversary is ever needed, it can be added as a fourth module.
 

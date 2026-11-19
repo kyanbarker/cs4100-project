@@ -1,3 +1,10 @@
+# PyCharm
+.idea/
+_DONT_INCLUDE
+.python-version
+
+src/reference/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

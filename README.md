@@ -1,6 +1,5 @@
 # CS 4100 Fall 2026 Final Project Repository
 
-- todo: convert project.pdf to project.md
 - todo: create a contributing.md
 
 ## Repository Outline
