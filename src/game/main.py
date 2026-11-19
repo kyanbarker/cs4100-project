@@ -25,8 +25,8 @@ class Main:
         self.music_on = True
 
         self.coins = 0
-        self.player_skin = 'Blue'
-        self.skins_purchased = ['Blue']
+        self.player_skin = 'Peter'
+        self.skins_purchased = ['Peter']
 
         # game states TODO maybe change to stack list
         self.running = True  # running the program
